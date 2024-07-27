@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee form</title>
+    <meta name="description" content="we will show you how to built form">
+    <link rel="stylesheet" href="form.css">
+    <a href="../index.html">home</a>
+</head>
+
+<body>
+
+ <h1>EMPLOYEE REQRUITMENT FORM</h1>
+
+ <form action="submit" method="post">
+
+<!-- label tag -->
+
+    <div>
+    <label for="username">enter your name :</label>
+    <input type="text" name="username" id="username" placeholder="enter your name">
+    </div>
+
+    <div>
+        <label>Gender :</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+
+    <div>
+        <label >password :</label>
+       <input type="password" name="password" id="password" placeholder="enter your password" required>    <!--  required means neccessary -->
+    </div>
+    <div>
+        <label for="email">email :</label>
+       <input type="email" id="email" name="email" pattern="[a-zA-Z0-9@]+">
+
+       <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">subscribe </label>
+    </div>
+
+    
+
+    <!-- text area and select area tag -->
+
+    <label for="comment">enter your comment :</label>
+    <br>
+    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+<div>
+    <select name="colors" >
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="black">black</option>
+        </select>
+</div>
+
+
+<div>
+    <input type="submit" value="submit">
+</div>
+
+<div>
+    <input type="reset" value="reset">
+</div>
+
+ </form>
+
+
+ 
+</body>
+
+</html> 
+ 
+ 
+ 

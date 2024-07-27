@@ -1,0 +1,24 @@
+body {
+    background-color: azure;
+    font-style: italic;
+}
+h1 {
+    color: chocolate;
+}
+
+
+h2 {
+    color: cornflowerblue;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+td {
+    border: 2px solid black;
+}
+
+
