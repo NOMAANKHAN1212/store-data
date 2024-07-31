@@ -22,3 +22,24 @@ td {
 }
 
 
+#istdiv {
+    background-color: brown;
+    color: yellow;
+}
+
+.ist{
+    color: blue;
+    background-color: blanchedalmond;
+
+
+}
+
+
+ #div2 {                                      /* id or class should not be started with a number  */
+background-color: grey;
+}
+
+.div2 {
+    color: lightseagreen;
+}
+
