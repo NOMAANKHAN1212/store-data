@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mybookmarks</title>
+    <link rel="stylesheet" href="style.css">
+    <p><a href="index.html">home</a></p>
+</head>
+
+<body>
+
+    <header>
+        <h1>list items and tables</h1>
+        
+    </header>
+
+    <main>
+       
+
+    <!-- orderd and unordered list -->
+    <nav>
+         <ul type="circle">       <!--square or disc  -->
+            <li>
+                car
+            </li>
+            <li>
+                bike
+            </li>
+            <li>
+                cycle
+            </li>
+
+        </ul>
+    </nav>
+
+    <nav>
+        <ol type="I">       <!--i,a,A -->
+            <li>
+                car
+            </li>
+            <li>
+                bike
+            </li>
+            <li>
+                cycle
+            </li>
+
+        </ol>
+    </nav>
+
+
+
+
+<!-- table -->
+
+
+    <table>
+        <thead>
+            <caption>STUDENT DETAILs</caption>
+        <tr>
+            <th>name</th>
+            <th>class</th>
+            <th>rollno</th>
+        </tr>
+
+        </thead>
+        <tbody>
+            <tr>                          <!--by arranging them into thead tbody and tfoot we can easily target them in css -->
+                <td>sam</td>
+                <td>two</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td colspan="2">sam</td>
+                <td rowspan="2">89</td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">sam</td>
+                
+                
+            </tr>
+        
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>sam</td>
+                <td>two</td>
+                <td>89</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+
+  
+
+    </main>
+   
+<script src="script.js"></script>
+</body>
+
+</html>
