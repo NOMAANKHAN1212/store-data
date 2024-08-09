@@ -1,6 +1,6 @@
-body {
+/* body {
     background-color: azure;
-    font-style: italic;
+    font-style:normal;
 }
 h1 {
     color: chocolate;
@@ -36,10 +36,12 @@ td {
 
 
  #div2 {                                      /* id or class should not be started with a number  */
-background-color: grey;
+/* background-color: grey;
 }
 
 .div2 {
     color: lightseagreen;
 }
 
+
+ */ 

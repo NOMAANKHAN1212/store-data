@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning css</title>
+    <p><a href="index.html">home</a></p>
+
+    <style>
+        .box {
+            background-color: aquamarine;
+        }
+
+        .box1 {
+            color: red;
+            padding: 15px;
+            border: 5px solid black;
+            margin: 25px;
+            height: 100px;
+            box-sizing: border-box;
+           
+                                                      /* if the box sizing is content box and for example if we have set  a height of 100 pixel 
+                                                        then the height will be the mix of content padding and border and on the other hand 
+                                                        if the box sizing is content box then the height of 100 pixel will be of the content only  */
+
+
+        }
+
+        .box2 {
+            color: blue;
+            padding: 15px;
+            border: 5px solid brown;
+            margin: 20px;
+            height: 100px;
+            box-sizing: content-box;
+                                        /*  margin collapse:-Margin collapse is a collapse of margin between two boxes for example here box 1 and box 2 
+                                            are given a margin of 25 and 20 respectively so there should be total 45 pixel margin between them but it is not the case 
+                                       ... Here only one margin is applied among the two ...the one having more margin will be applied that is 25 in this case   */
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>box model</h1>
+
+    </header>
+
+    <main>
+
+        <div class="box box1">
+            hello how are you
+        </div>
+
+        <div class="box box2">
+            hello i am fine
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>

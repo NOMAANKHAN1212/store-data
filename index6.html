@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning css</title>
+    <p><a href="index.html">home</a></p>
+
+    <style>
+        
+
+        header {
+            color: rgb(253, 65, 97);
+        }
+
+
+        /* element seclector */
+        div {
+            color: brown;
+        }
+
+        /* class selector */
+
+        .blue {
+            background-color: rgb(182, 172, 172);
+            color: blue;
+        }
+
+        .yellow {
+            background-color: rgb(182, 172, 172);
+            color: rgb(255, 255, 0);
+        }
+
+         /* id selector */
+
+         #green {
+            
+            color: green;
+         }
+
+         /* descendent selector */
+
+         div p {                        /* here selector should be just descendent*/
+            color: black;
+         }
+
+
+         /* child selector */
+
+         div > p {                        /* here selector should be direct child*/
+            color: rgb(43, 9, 106);
+         }
+
+
+         /* universal selector */
+
+        * {                      /*  (applicable to all)*/
+            margin: 3px;
+         }
+
+
+         /* pseudoselector */
+
+          a:link{                      /*link color would be salmon */
+            color:  salmon;
+         }
+
+         a:visited{                     /*after visited the link color would be blue */
+            color:blue;
+         }
+
+         a:active {                       /*when link is clicked the background color would be brown */
+            background-color: brown;
+         }
+
+         a:hover {                     /*when we will hover the mouse on the link the color would be green */
+            color: green;
+         }
+
+         /* p:first-child {             all p as a first child would we grey 
+            color: grey;
+         } */
+         
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>learning css</h1>
+        
+
+    </header>
+
+    <main>
+
+        <h2>Selectors</h2>
+
+
+        <ul><li><h3>element selector</h3></li></ul>
+
+        <div>
+            hello who are you
+        </div>
+
+        <ul><li><h3>class selector</h3></li></ul>
+
+        <div class="blue">
+            hello i am blue
+        </div>
+
+        <div class="yellow">
+            hello i am yellow
+        </div>
+
+
+        <ul><li><h3>id selector</h3></li></ul>
+
+        <div id="green">
+            hello i am green
+        </div>
+
+        <ul><li><h3>descendent selector</h3></li></ul>
+
+        <div>
+            <article>
+                <p>hello  in am black</p>
+            </article>
+        </div>
+
+
+        <ul><li><h3>child selector</h3></li></ul>
+
+        <div >
+            <p>hello  in am blue</p>
+        </div>
+
+
+        <ul><li><h3>pseudo selector</h3></li></ul>
+
+        <p><a href="https://www.google.co.in/">Google</a></p>
+        <p><a href="https://www.facebook.com/">FB</a></p>
+         <p><a href="www.instagram.com">INSTA</a></p>           <!--delibrately written wrong site adress so that it show not visited-->
+
+        <em>
+            <p>hello i am first child</p>
+            <p>hello i am second child</p>
+        </em>
+    </main>
+
+
+</body>
+
+</html>

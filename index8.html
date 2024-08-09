@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning css</title>
+    <p><a href="index.html">home</a></p>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+
+        h1{
+            text-align: center;
+        }
+        .class1 {
+            font-style: italic;
+            font-weight: 700;
+            text-decoration: underline;
+            text-decoration-color: aqua;
+            font-size: 20px;
+            line-height: 4.5;
+            letter-spacing: 20px;
+            text-transform: capitalize;
+            text-decoration-style: wavy;
+            text-decoration-thickness: 7px;
+
+        }
+
+        .class2 {
+            font-family: "Oswald", sans-serif;    /* by using link */       
+            font-optical-sizing: auto;
+        }
+
+        .class3 {
+            font-family: "Edu AU VIC WA NT Hand", cursive;   /* by using import in style tag */ 
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+        .class4 {
+            text-indent:200px;       /* shifts towards right*/
+            
+        }
+
+        .class5 {
+            border: 10px solid blue;
+            width: 50px;
+           text-overflow:clip;
+           overflow: auto;     /* overflow Auto will provide scroll where needed*/
+           /* overflow: hidden; */
+           /* overflow: scroll; */
+        }
+
+        .class6 {
+            border: 10px solid blue;
+            width: 200px;
+            word-break: break-all;      /* words would break at the end irrespective of completion of word*/
+        }
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>fonts and text properties</h1>
+
+    </header>
+
+    <main>
+
+        <p class="class1">hello how are you : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis vitae, modi non sit ducimus accusamus dolore enim sunt beatae atque.</p>
+        <p class="class2">hello i am good</p>
+        <p class="class3">good to see you</p>
+
+        <h2 class="class4">i am text indent</h2>
+
+        <p class="class5">Now about text overflow : Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, eveniet magnam eum, dolorum hic voluptates impedit soluta dignissimos expedita laborum reiciendis error odit? Magni natus repellendus porro repudiandae sapiente nulla autem ipsam? Quisquam, hic at. Pariatur earum sed autem dolores adipisci eius sequi excepturi beatae, blanditiis nobis. Delectus, nobis?</p>
+        <p class="class6">Now about word break : Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, eveniet magnam eum, dolorum hic voluptates impedit soluta dignissimos expedita laborum reiciendis error odit? Magni natus repellendus porro repudiandae sapiente nulla autem ipsam? Quisquam, hic at. Pariatur earum sed autem dolores adipisci eius sequi excepturi beatae, blanditiis nobis. Delectus, nobis?</p>
+
+    </main>
+
+
+</body>
+
+</html>
+
+
